@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: foodcatalogueapp
-          image: rsekhark55/food-catalogue-service:latest
+          image: rsekhark55/food-catalogue-service:2
           imagePullPolicy: Always
           ports:
             - containerPort: 9092 #
